@@ -71,7 +71,7 @@ function Pomodoro({header}) {
         }
 
         updateTimer();  
-         var interval = setInterval(countDown, 100);
+         var interval = setInterval(countDown, 1000);
          return () => {clearInterval(interval)}
 
     }, [state]);
