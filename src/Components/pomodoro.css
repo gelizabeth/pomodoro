@@ -1,0 +1,87 @@
+.tomato-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: tomato;
+    width: 400px;
+    height: 350px;
+    border-radius: 45% / 50%;
+    background-image: radial-gradient(tomato 20%, rgba(116, 35, 21, 0.308) 80%);
+}
+
+.tomato-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.tomato-leaf {
+
+    background-color: green;
+    height: 100px;
+    width: 200px;
+    border-radius: 100% 60% 100% 10%/ 100% 10% 100% 0%;
+    transform: rotateY(50deg) rotateX(340deg);
+}
+
+.tomato-leaf:first-of-type {
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+    border-bottom: 10px solid rgb(116, 35, 21);
+}
+
+.tomato-leaf:nth-of-type(2) {
+    position: relative;
+    /* left: 20px; */
+    bottom: 25px;
+    right: 5px;
+    height: 200px;
+    width: 100px;
+    transform: rotateY(50deg) rotateX(200deg) rotate(295deg);
+    border-right: 10px solid rgb(116, 35, 21);
+    z-index: 1;
+
+}
+
+.tomato-leaf:nth-of-type(3) {
+    position: relative;
+    right: 60px;
+    bottom: 10px;
+    transform: rotateY(50deg) rotateX(200deg);
+    border-top: 10px solid rgb(116, 35, 21);
+}
+
+.tomato {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 60px;
+    width: 240px;
+    color: antiquewhite;
+    font-size: 5rem;
+    align-content: center;
+}
+
+.number-container {
+
+    background-image: radial-gradient(rgba(116, 35, 21, 0.144) 20%, transparent 20%);
+    background-color: #e53935;
+    background-position: 0 0, 50px 50px;
+    background-size: 5px 5px;
+    padding: 5px;
+    min-width: 100px;
+    max-width: 100px;
+    height: 100px;
+    background-color: rgba(116, 35, 21, 0.356);
+    border-radius: 10px;
+    border: 5px solid rgba(116, 35, 21, 0.03);
+}
+
+.tomato-rounds {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.2rem;
+    text-transform: lowercase;
+    position: relative;
+    bottom: 50px;
+}
